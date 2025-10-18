@@ -1,0 +1,127 @@
+/* ====== MY_TUTOR STYLING ====== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+header.jock-box {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .my-tutor {
+  font-size: 26px;
+  color: tomato;
+}
+
+header .apply-from {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+header .apply-from:hover {
+  color: tomato;
+}
+
+/* ======= Hero Section ======= */
+.min2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.img-min {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.type-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.type {
+  font-size: 32px;
+  color: #222;
+}
+
+.type2 {
+  font-size: 16px;
+  margin: 10px 0 20px;
+}
+
+.type-box input,
+.type-box select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contac-bottom {
+  display: inline-block;
+  color: white;
+  background-color: tomato;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.contac-bottom:hover {
+  background-color: #ff7043;
+}
+
+/* ======= Section Titles ======= */
+.min3, .min4, .min5, .min6, .min7, .min8, .min9, .min10, .min11 {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fefefe;
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+/* ======= Buttons ======= */
+.connect-now, .apply-for a, .download a {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.connect-now:hover,
+.apply-for a:hover,
+.download a:hover {
+  background-color: #ff7043;
+}
+
+/* ======= Footer ======= */
+.min13 {
+  background-color: #333;
+  height: 80px;
+  margin-top: 30px;
+}
